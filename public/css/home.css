@@ -1,0 +1,159 @@
+
+body{
+    background-color:  #ebebeb;
+    width: 100%;
+
+}
+
+
+
+
+    /*                    HEADER                    */
+
+
+header{
+    background-color: #1259c3;
+}
+
+form{
+    border-radius: 2px;
+    margin: 2px;
+    color: #ebebeb;
+}
+#search{
+    margin: 2px;
+    padding-left: 1px;
+    color:#666;
+}
+header img{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+header{
+    background-color:#EAC926 ;
+    width: 100%;
+}
+header .firstUl, .secondUl {
+    display: none;
+    margin: 8px 8px 8px 0;
+    font-size: 16px;
+}
+
+#icon{
+    margin-left: 5px;
+}
+
+header form{
+   margin-left: 30px ;
+   margin-top: 15px; 
+}
+
+header h2{
+    margin: 1em;
+    text-align: center;
+}
+.burgermenu{
+    padding: 10px;
+    display: inline-block;
+    margin:3% 0% 3% 45% ;
+    border-radius: 10px;
+    background-color: #1259c3;
+    color: #ffffff;
+    
+}
+
+
+
+    /*                    MAIN                    */
+
+main{
+    width: 90%;
+    margin: auto;
+}
+.banner{
+    width: 100%;
+    display: none;
+}
+
+.offer{
+    font-size: 24px ;
+   color:  #666;
+}
+
+main article{
+    background-color: white;
+    margin-bottom: 10px ;
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+}
+article div{
+    border-top: 1px solid #ebebeb;
+    padding: 10px;
+}
+div i {
+    color: #39b54a ;
+    padding: 6px 0px;
+}
+.description{
+    font-size: 16px;
+   color:  #666;
+
+}
+
+.price{
+    font-size: 18px;
+}
+.discount{
+    color:  #39b54a;
+    margin: 6px 0px;
+    font-size: 16px ;
+}
+
+
+
+
+
+
+
+    /*                    FOOTER                    */
+
+
+
+
+footer{
+    color:  #666;
+    margin-top: 30px;
+    background-color: white;
+    text-align: center;
+}
+footer article{
+    text-align: center;
+    margin-bottom: 30px;
+}
+footer article i{
+    font-size: 2em;
+    color:  #1259c3;
+    margin: 10px;
+   
+}
+footer p{
+    margin-bottom: 10px ;
+}
+
+
+@media (min-width:361px) {
+
+    
+    header .firstUl, .secondUl {
+        display: initial;
+        margin: 8px 8px 8px 0;
+        text-align: center;
+        color: black;
+    }
+
+    .burgermenu{
+        display: none;
+    }
+
+
+}
